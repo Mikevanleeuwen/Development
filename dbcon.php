@@ -11,8 +11,19 @@ $sql = "SELECT * FROM products";
 $res = mysqli_query($msqli,$sql);
 //var_dump($res);
 $row = mysqli_fetch_all($res);
+$cols = mysqli_query($msqli, "DESC products");
 //var_dump($row);
 $msqli -> close();
-foreach($row as $value)foreach($value as $element)echo $element." ";
+
+while($result = mysqli_fetch_array($cols) ){
+    echo $result['Field']."  ";
+}
+echo "<br>";
+foreach($row as $value){
+    foreach($value as $element){
+        echo $element." ";
+    }
+    echo "<br>";
+}
 
     echo '<br>';
