@@ -44,8 +44,8 @@ if ($conn->connect_error)
 $usr = $_POST['usrnam'];
 $usrpw = $_POST['pw'];
 
-$usrquery = mysqli_query($conn, "SELECT * FROM users WHERE Username='".$usrnam."'");
-$pwquery = mysqli_query($conn, "SELECT * FROM users WHERE Password ='".$pw."'");
+$usrquery = mysqli_query($conn, "SELECT * FROM users WHERE Username=$usrnam");
+$pwquery = mysqli_query($conn, "SELECT * FROM users WHERE Password =$pw");
 
 if(mysqli_num_rows($usrquery) > 0 && mysqli_num_rows($pwquery) > 0){
 	echo "<script>
