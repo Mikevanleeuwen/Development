@@ -36,10 +36,16 @@ class Connection{
 
     public function makeCon()
     {
-        $this->con = mysqli_connect($this->host, $this->user, $this->passw, $this->name);
+        $this->con = mysqli_connect($this->host, $this->user, $this->passw);
         if(mysqli_connect_errno($this->con)){
             echo 'failed to connect to MSQL: '.mysqli_connect_error();
         }
+        $db_selected = mysqli_select_db($this->con, 'gemeente');
+        if(!$db_selected){
+            mysqli_query($this->con,'CREATE DATABASE gemeente');
+            $db_selected = mysqli_select_db($this->con, 'gemeente');
+        }
+        $this->con = $db_selected;
 
     }
 
