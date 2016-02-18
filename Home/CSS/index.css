@@ -1,6 +1,28 @@
-.logotxt{
-	margin-top: 20%;
+.around{
+	background-image: url("../Images/Citybg_1.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 800px;
 }
-.logo{
-	margin-top: 15px;
+
+.logotxt{
+	margin-top: 30%;
+}
+
+.logoplace{
+	width: 300px;
+	margin: 0 auto;
+}
+
+.headertxt{
+	width: 900px;
+	margin: 0 auto;
+	font-size: 5em;
+	color: white;
+	text-shadow:    
+	3px  3px 3px black,
+    3px -3px 3px black,
+   -3px  3px 3px black,
+   -3px -3px 3px black;
 }
