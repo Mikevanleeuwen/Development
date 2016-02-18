@@ -1,23 +1,21 @@
 .around{
-	background-image: url("../Images/Citybg_1.jpg");
+	background-image: url("../Images/bg.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-position: center; 
     height: 800px;
 }
 
-.logotxt{
-	margin-top: 30%;
-}
-
 .logoplace{
 	width: 300px;
-	margin: 0 auto;
+	margin-left: 30%;
+	margin-top: 20px;
 }
 
 .headertxt{
 	width: 900px;
 	margin: 0 auto;
+	margin-top: 250px;
 	font-size: 5em;
 	color: white;
 	text-shadow:    
