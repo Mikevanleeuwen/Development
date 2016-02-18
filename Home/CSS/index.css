@@ -8,18 +8,20 @@
 
 .logoplace{
 	width: 300px;
-	margin-left: 30%;
-	margin-top: 20px;
+	margin: 0 auto;
+	margin-top: 50px;
 }
 
 .arrows{
-	font-size: 1.6em;
+	font-size: 2em;
+	margin-top: 230px;
+	margin-right: 50px;
 }
 
 .headertxt{
 	width: 900px;
-	margin: 0 auto;
-	margin-top: 250px;
+	margin: 0 30%;
+	margin-top: -70px ;
 	font-size: 5em;
 	color: white;
 	text-shadow:    
