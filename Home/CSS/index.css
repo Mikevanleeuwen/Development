@@ -43,3 +43,10 @@
     .headertxt{
     	margin-top: 200px;
     }
+
+    /* second around */
+
+    .secondaround{
+    	height: 800px;
+    	background-color: green;
+    }
