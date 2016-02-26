@@ -40,10 +40,12 @@
 
 .secondaround {
 	height: 800px;
-    background-color: green;
+    background-color: 	#BCD4E6;
 }
 
 .menu {
 	text-align: center;
-	margin: 0 auto;
+	margin: -20px auto;
+	background-color: #919191;
+	width: 100%;
 }
