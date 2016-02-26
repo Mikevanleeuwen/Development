@@ -35,7 +35,7 @@
 				</div>
 			</div>
 			<div class="secondaround">
-				<div class="container">
+				<div class="container trap">
 					<div class="menu">
 						<div class="row-fluid">
 							<h2>Home</h2>
